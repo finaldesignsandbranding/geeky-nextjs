@@ -9,6 +9,10 @@ banner:
     link: /about
     rel: ""
 
+featured_posts:
+  enable: true
+  title: Featured Posts
+
 promotion:
   enable: true
   image: /images/promotion.png

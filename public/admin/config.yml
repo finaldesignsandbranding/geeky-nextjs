@@ -34,3 +34,18 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+- label: "JS colleciton folder"
+  name: "JS collection File "
+  file: "pages/index.js"
+  extension: "js"
+  description: "General Site Settings"
+  fields:
+      - {label: "Global title", name: "site_title", widget: "string"}
+      - label: "Post Settings"
+        name: "posts"
+        widget: "object"
+        fields:
+            - {label: "Number of posts on frontpage", name: front_limit, widget: number}
+            - {label: "Default Author", name: author, widget: string}
+            - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
